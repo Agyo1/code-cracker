@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
+#code {
+    color: black;
+    font-family: 'Workbench', sans-serif;
+    border: solid black 2px;
+    text-align: center;
+    width: 33%;
+    height: 35px;
+    padding-top: 17px;
+    transition: 0.2s all ease-out;
+    cursor: not-allowed;
+    user-select: none;
+}
+.container {
+    width: 66%;
+}
+table,
+td.number {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+    width: 33%;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Workbench', sans-serif;
+    background: #eee;
+    cursor: pointer;
+    transition: 0.5s all;
+    user-select: none;
+}
+td.number:hover {
+    background: #8bd0a1;
+}
+.code-box {
+    margin: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 20%;
+    color: #fff;
+    border: 2px dashed black;
+    text-align: center;
+    background: #aaa;
+}
+.show,
+.crack {
+    margin-top: 2rem;
+}

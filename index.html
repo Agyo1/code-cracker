@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Code cracker</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <p id="code">* * * *</p>
+            <table class="keypad">
+                <tr>
+                    <td class="number" onclick="clickNum(1)">1</td>
+                    <td class="number" onclick="clickNum(2)">2</td>
+                    <td class="number" onclick="clickNum(3)">3</td>
+                </tr>
+                <tr>
+                    <td class="number" onclick="clickNum(4)">4</td>
+                    <td class="number" onclick="clickNum(5)">5</td>
+                    <td class="number" onclick="clickNum(6)">6</td>
+                </tr>
+                <tr>
+                    <td class="number" onclick="clickNum(7)">7</td>
+                    <td class="number" onclick="clickNum(8)">8</td>
+                    <td class="number" onclick="clickNum(9)">9</td>
+                </tr>
+                <tr>
+                    <td class="number" onclick="clickNum('*')">*</td>
+                    <td class="number" onclick="clickNum(0)">0</td>
+                    <td class="number" onclick="clickNum('#')">#</td>
+                </tr>
+            </table>
+        </div>
+        <button class="show" onclick="showCode()">Show Code</button>
+        <button class="crack" onclick="crackCode()">Crack Code</button>
+        <script src="index.js"></script>
+    </body>
+</html>
